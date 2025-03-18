@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feed | Linkedin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link type="image/png" sizes="16x16" rel="icon" href="images/title logo png.png">
 </head>
@@ -11,17 +12,35 @@
     <header>
         <div id="header">
             <div id="content">
-                <div class="element">
-                    <a href="https://www.linkedin.com/feed/">
+                <div id="content-right">
+                    <div id="content-right-logo">
+                        <a href="https://www.linkedin.com/feed/">
                         <img src="images/header logo png.png" alt="linkedin image">
-                    </a>
+                        </a>
+                    </div>
+                    <div id="content-right-searchbar">
+                        <div id="searchbar-icon">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                        <input type="text" placeholder="Search">
+                    </div>
                 </div>
-                <div class="element" id="searchbox">
-                    <div class="search-icon"><i class="fa-regular fa-magnifying-glass"></i></div>
-                    <input type="text" placeholder="Search">
-                </div> 
+                <div id="content-left">
+                        <div class="icon" id="home"><i class="fa-solid fa-house fa-lg"></i> <p>Home</p></div>
+                        <div class="icon" id="network"><i class="fa-solid fa-users fa-lg"></i>
+                        <p>My Network</p></div>
+                        <div class="icon" id="jobs"><i class="fa-solid fa-briefcase fa-lg"></i><p>Jobs</p></div>
+                        <div class="icon" id="messaging"><i class="fa-solid fa-comment-dots fa-lg"></i>
+                        <p>Messaging</p></div>
+                        <div class="icon" id="notification"><i class="fa-solid fa-bell fa-lg"></i>
+                        <p>Notifications</p></div>
+                        <div class="icon" id="content-left-img" >
+                            <img src="images/profile-img.jpg" alt="This is a profile image">
+                            <p>Me</p>
+                        </div>
+                </div>
             </div>
-        </div>
+        </div>    
     </header>
     <script src="script.js"></script>
 </body>

@@ -3,16 +3,96 @@ body {
 }
 
 #header{
-    padding-left: 20px;
+    padding: 10px 150px; /* Reduced top & bottom padding */
+    background-color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
 }
 
 #content {
     display: flex;
-    padding-right: 10px;
-    
+}
+
+#content-right{
+    display: flex;
+    align-items: center;
+}
+
+#content-right-logo {
+    margin-right: 5px ;
+}
+
+#content-right-searchbar {
+    display: flex;
+    align-items: center; /* Vertically centers icon & input */
+    background-color: #f2f2f2;
+    padding: 4px 10px; /* Reduced padding */
+    border-radius: 8px;
+    width: 220px; /* Controlled width */
+    height: 36px; /* Fixed height */
+}
+
+#searchbar-icon{
+    margin-right: 8px;
+    color: #666666;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+#content-right-searchbar input{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    height: 100%; /* Make input match parent height */
+
+}
+/* make sure there is no space between the input::placeholde */
+#content-right-searchbar input::placeholder {
+    font-size: 14px;
+    color: gray;
 }
 
 
-.element{
+#content-left {
+    display: flex;
+    margin-left: 200px;
+}
+
+.icon {
+    min-height: 70px; /* Increased */
+    min-width: 90px;  /* Slightly wider */
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center; /* Vertically center both icon and text */
     margin-right: 20px;
+    color: #666666;
+    padding-top: 0;
 }
+.icon i {
+    margin-bottom: 16px;  /* ✅ Adds space between icon & text */
+    font-size: 1.4rem;   /* Keeps icon size balanced */
+}
+
+.icon p {
+    display: flex;
+    align-items: center;
+    margin: 0; /* Removes default margin causing gap */
+    font-size: 0.85rem; /* Slightly smaller for balance */
+    text-align: center;   /* Center-align */
+}
+
+#content-left img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 4px;
+}
+
