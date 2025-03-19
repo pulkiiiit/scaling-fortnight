@@ -74,11 +74,29 @@ body {
     margin-right: 20px;
     color: #666666;
     padding-top: 0;
-}
-.icon i {
     margin-bottom: 16px;  /* ✅ Adds space between icon & text */
     font-size: 1.4rem;   /* Keeps icon size balanced */
+    
 }
+.icon:hover {
+    color: black;
+    
+}
+.icon:active{
+    border-bottom: 3px  solid black;
+    color: black;
+}
+
+.icon i {
+    margin-bottom: 12px;  /* ✅ Adds space between icon & text */
+    font-size: 1.4rem;   /* Keeps icon size balanced */
+}
+
+.material-symbols-outlined{
+    margin-bottom: 1px;  /* ✅ Adds space between icon & text */
+    font-size: 1.8rem;   /* Keeps icon size balanced */
+}
+
 
 .icon p {
     display: flex;
@@ -96,3 +114,13 @@ body {
     margin-bottom: 4px;
 }
 
+.vertical-line {
+    width: 2px;           
+    height: 90px;         
+    background-color: #f4f2ee; 
+    /* background-color: black;  */
+    margin: 0 10px;       
+  }
+
+
+  
