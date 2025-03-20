@@ -1,3 +1,4 @@
+
 body {
     background-color: #f4f2ee;
 }
@@ -124,14 +125,15 @@ body {
 
   .main-body {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: normal;
+    justify-content:space-around;
     margin-top: 24px;
   }
 
   #left-section{
     display: flex;
     flex-direction: column;
+    position: static;
   }
 
   .profile-card{
@@ -222,9 +224,220 @@ body {
 }
 
 .profile-stats-content-text p:hover {
-    border-bottom: 2px  solid black;
+    border-bottom: 2px  solid black; 
+}
+
+#main-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.start-post{
+    width: 540px;
+    height: 140px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.start-post-upper{
+    display: flex;
+    margin: 8px 16px 8px;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
 
+.post-upper-img{
+    height: 48px;
+    width: 48px;
+    margin: 0px 0px 0px 0px;
+}
 
+.post-upper-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post-upper-input{
+    height: 48px;
+    width: 383px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #b4b4b4;
+    border-radius: 35px;
+}
+
+.post-upper-input input {
+    padding: 10px 8px 10px 16px;
+    margin: 4px 0px;
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+    height: 100%;
+}
+
+.post-upper-input input::placeholder {
+    font-size: 16px;
+    color: black;
+}
+
+.post-lower-contents{
+    display: flex;
+    justify-content: space-around;
+}
+
+.post-lower-content{
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+}
+
+.post-lower-content i {
+    font-size: 25px;
+    margin: 0px 10px 0px 0px;
+}
+
+#media i {
+    color: #378fe9;
+}
+
+#job i {
+    color: #a871ea;
+}
+
+#article i {
+    color: #e68469;
+}
+
+.post{
+    width: 540px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    color: #00000099;
+}
+
+.post-upper{
+    display: left;
+    margin: 0px 0px 8px;
+    padding: 12px 72px 0px 16px;
+}
+
+.post-upper-left {
+    padding: 0px 16px 0px 0px;
+    display: flex;
+    align-items:normal
+}
+
+.post-upper-left-content-img {
+    height: 48px;
+    width: 48px;
+}
+
+.post-upper-left-content-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.post-upper-left-contents{
+    padding: 0px 2px;
+    margin: 0px 0px 0px 8px;
+}
+
+.post-upper-left-contents-text-upper {
+    display: flex;
+    color: black;
+    align-items: end;
+}
+#name {
+    font-size: 19px;
+}
+
+.post-upper-left-contents-text-lower p {
+    margin: 0px;
+}
+
+#website-link p {
+    margin: 0px;
+    color: #4888c9;
+}
+
+#last-update p {
+    margin: 0px;
+    color: #00000099;
+}
+
+.post-text{
+    margin: 0px 0px 0px 16px;
+    color: black;
+}
+
+.post-down-upper {
+    width: 540px;
+}
+.post-down-upper-contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-down-upper-contents-left {
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 16px;
+}
+
+.post-down-upper-contents-right{
+    padding: 0px 16px 0px 0px;
+}
+
+.post-down-lower-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 4px 16px;
+}
+
+.post-down-lower-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 8px;
+}
+
+.post-down-lower-content i {
+    font-size: 19px;
+}
+
+
+#image {
+    height: 32px;
+    width: 32px;
+}
+
+#image img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
