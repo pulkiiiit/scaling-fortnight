@@ -233,7 +233,6 @@ body {
 }
 
 .start-post{
-    width: 540px;
     height: 140px;
     background-color: white;
     border-radius: 8px;
@@ -289,7 +288,8 @@ body {
 
 .post-upper-input input::placeholder {
     font-size: 16px;
-    color: black;
+    color: #515151;
+    font-weight: 525;
 }
 
 .post-lower-contents{
@@ -440,4 +440,153 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
+
+.feed-news{
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 12px 0px 16px 0px;
+}
+
+.feed-news-content-upper{
+    margin-top: 8px;
+    padding: 0px 8px 0px 20px;
+}
+
+#trending-now-title {
+    width: 300px;
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    font-family: -apple-system, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#trending-now-title h2{
+    margin: 0px;
+}
+
+
+#trending-now-title H2 {
+    font-size: 26px;
+    line-height: 1.4;
+    width: 256px;
+    font-weight: 600;
+}
+
+#trending-now-subtitle {
+    width: 300px;
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#trending-now-subtitle h3{
+    font-size: 16px;
+    color: #00000099;
+    margin: 0px;
+}
+
+.feed-content-news-contents {
+    padding: 0px 8px 0px 20px;
+    margin-top: 8px ;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: space-around;
+}
+.feed-content-news-contents:hover{
+    background-color: #EEEEEE;
+}
+
+#feed-content-news-contents-upper{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.42857;
+    padding: 4px 16px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.feed-content-news-contents-upper:hover{
+    border-bottom: 1px solid black;
+}
+
+#feed-content-news-contents-lower{
+    font-size: 14px;
+    color: #8f9fb3;
+}
+
+#show-more{
+    width: 300px;
+}
+
+#show-more-content{
+    width: fit-content;
+    font-size: 18px;
+    color: #4f6168;
+}
+
+#show-more-content:hover{
+    background-color: #EEEEEE;
+}
+
+#show-more-content i{
+    font-size: 18px;
+}
+
+#todays-puzzle{
+    padding-top: 8px;
+    width: 300px;
+    font-size: 19px;
+    color: #8e8e8e;
+    font-weight: 400;
+}
+
+#zip{
+    width: 300px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo-content{
+    display: flex;
+}
+
+#logo-content img {
+    height: 32px;
+    width: 32px;
+}
+#middle-section p{
+    margin: 0px;
+    font-size: 18px;
+}
+
+#middle-section span{
+    color: #696c80;
+}
+
+#middle-section{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 8px ;
+}
+
+#game-icon{
+    font-size: 20px;
+}
+
+
 
